@@ -1,0 +1,25 @@
+.btn {
+	border-radius: 9999px;
+	font-weight: bold;
+	font-size: 1rem;
+	color: hsl(355, 100%, 74%);
+
+	&:hover {
+		background-color: hsl(355, 100%, 74%);
+		color: #fff;
+		border: 1px solid transparent;
+	}
+
+	&-outline-light {
+		color: #fff;
+
+		&:hover {
+			background-color: #fff;
+			color: hsl(355, 100%, 74%);
+		}
+	}
+
+	&-login {
+		padding: .5rem 2rem;
+	}
+}

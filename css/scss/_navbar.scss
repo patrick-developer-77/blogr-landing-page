@@ -1,0 +1,20 @@
+.navbar {
+	background-color: transparent;
+
+	@include large {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
+	& &-nav {
+		gap: 1rem;
+	}
+}
+
+.nav {
+	gap: 2rem;
+
+	&-link {
+		color: #fff;
+	}
+}

@@ -1,0 +1,22 @@
+.footer {
+	background-color: $veryDark;
+	border-top-right-radius: 6rem;
+	padding-top: 4.375rem;
+
+	img {
+		margin-bottom: 5rem;
+	}
+
+	.nav {
+		gap: 0;
+	}
+
+	a {
+		color: hsl(240, 2%, 79%);
+
+		&:hover {
+			color: hsl(240, 2%, 79%);
+			text-decoration: underline;
+		}
+	}
+}

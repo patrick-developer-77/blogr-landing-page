@@ -1,0 +1,18 @@
+.hero {
+	border-bottom-left-radius: 6rem;
+	height: 600px;
+	background-image: url(../img/bg-pattern-intro.svg), linear-gradient(to right, #ff8f70 10%, #ff3d54 64%);
+	background-size: 220%;
+	background-position: 25% 52%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 3.65rem;
+	padding-bottom: 3.65rem;
+
+	p {
+		color: hsl(0, 0%, 100%);
+	}
+}
